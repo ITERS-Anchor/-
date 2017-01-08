@@ -1,0 +1,5 @@
+C:\.Net learning\三层asp\Common\bin\Debug\Common.dll
+C:\.Net learning\三层asp\Common\bin\Debug\Common.pdb
+C:\.Net learning\三层asp\Common\obj\Debug\Common.dll
+C:\.Net learning\三层asp\Common\obj\Debug\Common.pdb
+C:\.Net learning\三层asp\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache

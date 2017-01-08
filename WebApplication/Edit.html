@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script type="text/javascript">    
+        window.onload = function() {
+            document.getElementById("txtid").readOnly = true;
+        }
+    </script>
+</head>
+<body>
+    <form action="EditProcess.ashx" method="post">
+        ID:<input type="text" name="id" id="txtid" value="$UserId" />
+        Name:<input type="text" name="name" value="$UserName" />
+        Password:<input type="password" name="pwd" value="$UserPwd" />
+        <input type="submit" name="btnEdit" value="Edit" />
+    </form>
+</body>
+</html>

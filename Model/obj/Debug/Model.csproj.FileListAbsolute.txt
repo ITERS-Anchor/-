@@ -1,0 +1,4 @@
+C:\.Net learning\三层asp\Model\bin\Debug\Model.dll
+C:\.Net learning\三层asp\Model\bin\Debug\Model.pdb
+C:\.Net learning\三层asp\Model\obj\Debug\Model.dll
+C:\.Net learning\三层asp\Model\obj\Debug\Model.pdb

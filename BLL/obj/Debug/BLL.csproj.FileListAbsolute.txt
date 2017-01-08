@@ -1,0 +1,9 @@
+C:\.Net learning\三层asp\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\.Net learning\三层asp\BLL\bin\Debug\BLL.dll
+C:\.Net learning\三层asp\BLL\bin\Debug\BLL.pdb
+C:\.Net learning\三层asp\BLL\bin\Debug\DAL.dll
+C:\.Net learning\三层asp\BLL\bin\Debug\Model.dll
+C:\.Net learning\三层asp\BLL\bin\Debug\DAL.pdb
+C:\.Net learning\三层asp\BLL\bin\Debug\Model.pdb
+C:\.Net learning\三层asp\BLL\obj\Debug\BLL.dll
+C:\.Net learning\三层asp\BLL\obj\Debug\BLL.pdb

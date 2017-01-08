@@ -1,0 +1,7 @@
+C:\.Net learning\三层asp\DAL\bin\Debug\DAL.dll
+C:\.Net learning\三层asp\DAL\bin\Debug\DAL.pdb
+C:\.Net learning\三层asp\DAL\bin\Debug\Model.dll
+C:\.Net learning\三层asp\DAL\bin\Debug\Model.pdb
+C:\.Net learning\三层asp\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\.Net learning\三层asp\DAL\obj\Debug\DAL.dll
+C:\.Net learning\三层asp\DAL\obj\Debug\DAL.pdb

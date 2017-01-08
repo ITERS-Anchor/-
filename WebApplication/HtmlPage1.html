@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        div {
+            display: block;
+        }
+    </style>
+
+    <script type="text/javascript">
+
+        onload = function () {
+            //隐藏
+            document.getElementById('btnHidde').onclick = function () {
+
+                document.getElementById('dv').style.display = 'none';
+            };
+            //显示
+            document.getElementById('btnShow').onclick = function () {
+
+                document.getElementById('dv').style.display = 'block';
+            };
+            //切换
+            document.getElementById('btn').onclick = function () {
+                var dvObj = document.getElementById('dv');
+                alert(dvObj.style.display);
+
+                if (dvObj.style.display == 'none') {
+                    dvObj.style.display = 'block';
+                } else {
+                    dvObj.style.display = 'none';
+                }
+            };
+        };
+    </script>
+</head>
+<body>
+    <input type="button" name="name" value="显示" id="btnShow" />
+    <input type="button" name="name" value="隐藏" id="btnHidde" />
+    <input type="button" name="name" value="显示/隐藏" id="btn" />
+    <div id="dv" style="width:600px; height:300px;background-color:Green;display:none">
+        <img src="Image/bear.jpg" />
+    </div>
+</body>
+
+
+</html>

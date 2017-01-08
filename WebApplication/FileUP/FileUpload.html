@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script type="text/javascript">
+
+        onload = function () {
+            document.getElementById('btn').onclick = function () {
+                var dvObj = document.getElementById('dv');
+                
+                if (dvObj.style.display == 'none') {
+                    dvObj.style.display = 'block';
+                } else {
+                    dvObj.style.display = 'none';
+                }
+            };
+        };
+    </script>
+</head>
+<body>
+    <!--enctype="multipart/form-data"  W文件上传必须加这个属性-->
+    <form action="FileUpload.ashx" method="post" enctype="multipart/form-data">
+        Please choose a file<input type="file" name="fileName" value="" />
+        <input type="submit" id="btnUp" value="Upload" />
+        <input type="button" id="btn" value="show/hide" />
+    </form>
+    <div id="dv" style="width:600px; height:300px;background-color:Green;display:none">
+        <img src="$souce" />
+    </div>
+</body>
+
+</html>
